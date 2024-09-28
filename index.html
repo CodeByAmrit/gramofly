@@ -4,149 +4,73 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Gramofly</title>
-        <script src="https://cdn.tailwindcss.com"></script>
+        <!-- <script src="https://cdn.tailwindcss.com"></script> -->
         <link rel="icon" type="image/x-icon" href="images/favicon.ico">
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="custom.css">
     </head>
     <body>
-        <div class="bg-white">
+        <div class="bg-white z-20">
             <header class="absolute inset-x-0 top-0 z-50">
-                <nav
-                    class="flex items-center justify-between p-6 lg:px-8"
-                    aria-label="Global"
-                    >
+                <nav class="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
                     <div class="flex lg:flex-1">
                         <a href="#" class="-m-1.5 p-1.5">
-                        <span class="sr-only">Gramofly</span>
-                        <img
-                            class="h-8 w-auto"
-                            src="./images/text.svg"
-                            alt=""
-                            />
+                            <span class="sr-only">Gramofly</span>
+                            <img class="h-8 w-auto" src="./images/text.svg" alt="Gramofly Logo" />
                         </a>
                     </div>
                     <div class="flex lg:hidden">
-                        <button
-                            type="button"
-                            class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
-                            >
-                        <span class="sr-only">Open main menu</span>
+                        <button type="button" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700">
+                            <span class="sr-only">Open main menu</span>
                         </button>
                     </div>
-                    <div class="hidden lg:flex lg:gap-x-12">
-                        <a href="/" class="text-sm font-semibold leading-6 text-gray-900"
-                            >Home</a
-                            >
-                        <a href="#" class="text-sm font-semibold leading-6 text-gray-900"
-                            >About us</a
-                            >
-                        <a href="#" class="text-sm font-semibold leading-6 text-gray-900"
-                            >Services</a
-                            >
-                        <a href="#" class="text-sm font-semibold leading-6 text-gray-900"
-                            >Portfolio</a
-                            >
-                        <a href="#" class="text-sm font-semibold leading-6 text-gray-900"
-                            >Blog</a
-                            >
+                    <div class="flex gap-x-6 lg:gap-x-12">
+                        <a href="/" class="text-sm font-semibold leading-6 text-gray-900">Home</a>
+                        <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Services</a>
+                        <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Portfolio</a>
+                        <a href="#" class="text-sm font-semibold leading-6 text-gray-900">About Us</a>
+                        <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Blog</a>
                     </div>
                     <div class="hidden lg:flex lg:flex-1 lg:justify-end">
-                        <a href="contact.html" class="text-sm font-semibold leading-6 text-gray-900"
-                            >Contact Us <span aria-hidden="true">&rarr;</span></a
-                            >
+                        <a href="https://wa.me/8986404987" target="_blank" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">
+                            Chat Now
+                        </a>
                     </div>
                 </nav>
-                <!-- Mobile menu, show/hide based on menu open state. -->
             </header>
+        
             <div class="relative isolate px-6 pt-14 lg:px-8">
-                <div
-                    class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
-                    aria-hidden="true"
-                    >
-                    <div
-                        class="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
-                        style="
-                        clip-path: polygon(
-                        74.1% 44.1%,
-                        100% 61.6%,
-                        97.5% 26.9%,
-                        85.5% 0.1%,
-                        80.7% 2%,
-                        72.5% 32.5%,
-                        60.2% 62.4%,
-                        52.4% 68.1%,
-                        47.5% 58.3%,
-                        45.2% 34.5%,
-                        27.5% 76.7%,
-                        0.1% 64.9%,
-                        17.9% 100%,
-                        27.6% 76.8%,
-                        76.1% 97.7%,
-                        74.1% 44.1%
-                        );
-                        "
-                        ></div>
+                <div class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80" aria-hidden="true">
+                    <div class="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
+                        style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%);"></div>
                 </div>
-                <div class="mx-auto max-w-2xl py-32 sm:py-48 lg:py-18">
-                    <div class="text-center">
-                        <h1
-                            class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl"
-                            >
-                            Global Creative Production Company That Crafts Amazing Work
-                        </h1>
-                        <p class="mt-6 text-lg leading-8 text-gray-600">
-                            We are fastest growing digital agency that with strong busincess idea and ethics. 
-                            Check our work with awesome customers.
-                        </p>
-                        <div class="mt-10 flex items-center justify-center gap-x-6">
-                            <a
-                                href="#"
-                                class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-                                >Contact Us</a
-                                >
-                            <a href="#" class="text-sm font-semibold leading-6 text-gray-900"
-                                >Learn more <span aria-hidden="true">→</span></a
-                                >
-                        </div>
+        
+                <div class="mx-auto max-w-2xl py-10 sm:py-48 text-center z-50" style="z-index: 20000 !important;">
+                    <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
+                        Global Digital Marketing Company That Crafts Amazing Work
+                    </h1>
+                    <p class="mt-6 text-lg leading-8 text-gray-600">
+                        We are the fastest growing digital agency with a strong business idea and ethics. Check our work with awesome customers.
+                    </p>
+                    <div class="mt-10 flex items-center justify-center gap-x-6">
+                        <a href="https://wa.me/8986404987" target="_blank" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">
+                            Chat Now
+                        </a>
+                        <a href="/" class="text-sm font-semibold leading-6 text-gray-900">
+                            Learn more <span aria-hidden="true">→</span>
+                        </a>
                     </div>
                 </div>
-                <div
-                    class="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
-                    aria-hidden="true"
-                    >
-                    <div
-                        class="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]"
-                        style="
-                        clip-path: polygon(
-                        74.1% 44.1%,
-                        100% 61.6%,
-                        97.5% 26.9%,
-                        85.5% 0.1%,
-                        80.7% 2%,
-                        72.5% 32.5%,
-                        60.2% 62.4%,
-                        52.4% 68.1%,
-                        47.5% 58.3%,
-                        45.2% 34.5%,
-                        27.5% 76.7%,
-                        0.1% 64.9%,
-                        17.9% 100%,
-                        27.6% 76.8%,
-                        76.1% 97.7%,
-                        74.1% 44.1%
-                        );
-                        "
-                        ></div>
+        
+                <div class="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]" aria-hidden="true">
+                    <div class="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]"
+                        style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%);"></div>
                 </div>
             </div>
         </div>
+        
         <div class="relative isolate px-6 pt-0 lg:px-8">
-            <div class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
-                aria-hidden="true">
-                <div class="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
-                    style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)">
-                </div>
-            </div>
+            
             <div class="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
                 aria-hidden="true">
                 <div class="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]"
@@ -281,162 +205,282 @@
                 </div>
                 <div class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 m-1">
                     <div class="flex flex-col items-center pb-10 pt-10 p-5">
-                        <img class="w-24 h-24 mb-3 " src="./images/Handshake-1.svg" alt="Bonnie image"/>
+                        <img class="w-24 h-24 mb-3 " src="./images/Shield-Security.svg" alt="Bonnie image"/>
                         <h5 class="mb-1 text-xl font-medium text-gray-900 dark:text-white">Branding</h5>
                         <span class="text-sm text-gray-500 dark:text-gray-400 text-center">The modern world is in a continuous movement and people everywhere.</span>
                     </div>
                 </div>
                 <div class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 m-1">
                     <div class="flex flex-col items-center pb-10 pt-10 p-5">
-                        <img class="w-24 h-24 mb-3 " src="./images/Handshake-1.svg" alt="Bonnie image"/>
+                        <img class="w-24 h-24 mb-3 " src="./images/Diploma.svg" alt="Bonnie image"/>
                         <h5 class="mb-1 text-xl font-medium text-gray-900 dark:text-white">Ecommerce</h5>
                         <span class="text-sm text-gray-500 dark:text-gray-400 text-center">Learn how to generate more leads on your website with hundreds of proven strategies</span>
                     </div>
                 </div>
                 <div class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 m-1">
                     <div class="flex flex-col items-center pb-10 pt-10 p-5">
-                        <img class="w-24 h-24 mb-3 " src="./images/Handshake-1.svg" alt="Bonnie image"/>
+                        <img class="w-24 h-24 mb-3 " src="./images/Certificate.svg" alt="Bonnie image"/>
                         <h5 class="mb-1 text-xl font-medium text-gray-900 dark:text-white">SEO Optimization</h5>
                         <span class="text-sm text-gray-500 dark:text-gray-400 text-center">The modern world is in a continuous movement and people everywhere.</span>
                     </div>
                 </div>
             </div>
-            <!-- <div class="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
-                <dl class="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
-                    <div class="relative pl-16">
-                        <dt class="text-base font-semibold leading-7 text-gray-900">
-                            <div
-                                class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-600">
-                                <svg class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                                    stroke="currentColor" aria-hidden="true">
-                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                        d="M12 16.5V9.75m0 0l3 3m-3-3l-3 3M6.75 19.5a4.5 4.5 0 01-1.41-8.775 5.25 5.25 0 0110.233-2.33 3 3 0 013.758 3.848A3.752 3.752 0 0118 19.5H6.75z" />
-                                </svg>
-                            </div>
-                            Flexible Scalability
-                        </dt>
-                        <dd class="mt-2 text-base leading-7 text-gray-600">Student File Manager: Easily scale your
-                            system to pixel-perfect precision, ensuring seamless management of student data.</dd>
-                    </div>
-                    <div class="relative pl-16">
-                        <dt class="text-base font-semibold leading-7 text-gray-900">
-                            <div
-                                class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-600">
-                                <svg class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                                    stroke="currentColor" aria-hidden="true">
-                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                        d="M16.5 10.5V6.75a4.5 4.5 0 10-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z" />
-                                </svg>
-                            </div>
-                            SSL certificates
-                        </dt>
-                        <dd class="mt-2 text-base leading-7 text-gray-600">Sit quis amet rutrum tellus ullamcorper
-                            ultricies libero dolor eget. Sem sodales gravida quam turpis enim lacus amet.</dd>
-                    </div>
-                    <div class="relative pl-16">
-                        <dt class="text-base font-semibold leading-7 text-gray-900">
-                            <div
-                                class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-600">
-                                <svg class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                                    stroke="currentColor" aria-hidden="true">
-                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                        d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0l3.181 3.183a8.25 8.25 0 0013.803-3.7M4.031 9.865a8.25 8.25 0 0113.803-3.7l3.181 3.182m0-4.991v4.99" />
-                                </svg>
-                            </div>
-                            User Verification
-                        </dt>
-                        <dd class="mt-2 text-base leading-7 text-gray-600">The database server generates a unique port
-                            for each connection, adding an extra layer of security by accepting only authorized
-                            connections.</dd>
-                    </div>
-                    <div class="relative pl-16">
-                        <dt class="text-base font-semibold leading-7 text-gray-900">
-                            <div
-                                class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-600">
-                                <svg class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                                    stroke="currentColor" aria-hidden="true">
-                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                        d="M7.864 4.243A7.5 7.5 0 0119.5 10.5c0 2.92-.556 5.709-1.568 8.268M5.742 6.364A7.465 7.465 0 004.5 10.5a7.464 7.464 0 01-1.15 3.993m1.989 3.559A11.209 11.209 0 008.25 10.5a3.75 3.75 0 117.5 0c0 .527-.021 1.049-.064 1.565M12 10.5a14.94 14.94 0 01-3.6 9.75m6.633-4.596a18.666 18.666 0 01-2.485 5.33" />
-                                </svg>
-                            </div>
-                            Advanced security
-                        </dt>
-                        <dd class="mt-2 text-base leading-7 text-gray-600">The software uses SSL Certificates to create
-                            a secure, encrypted connection between the client and server, ensuring safe data transfer.
-                        </dd>
-                    </div>
-                </dl>
-                </div> -->
         </div>
+        
+       
+        <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-12 lg:px-6  "> </div>
+        <div>
+            <div class="mx-auto max-w-screen-sm text-center mb-8 lg:mb-16 ">
+                <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
+                    Team of Gramfly
+                </h2>
+                <p class="font-light text-gray-500 lg:mb-16 sm:text-xl dark:text-gray-400">
+                    
+                        We are the developers behind Gramfly, specializing in creating responsive websites and delivering effective digital marketing solutions with a focus on SEO and user engagement. 
+                    </p>
+            </div>
         </div>
-        <section class="bg-white dark:bg-gray-900 ">
-        <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6  ">
-        <!-- <div class="mx-auto max-w-screen-sm text-center mb-8 lg:mb-16 ">
-            <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">About Author</h2>
-            <p class="font-light text-gray-500 lg:mb-16 sm:text-xl dark:text-gray-400">I'm Amrit, the developer
-                behind Student File Manager, specializing in responsive and user-friendly web interfaces using
-                HTML, CSS, and JavaScript & Desktop Application in Python.
-            </p>
-        </div> -->
-        <div class="grid gap-8 mb-6 lg:mb-16 md:grid-cols-2">
-            <!-- <div
-                class=" bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700 flex justify-center items-center">
-                <a href="/">
-                <img class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg"
-                    src="https://avatars.githubusercontent.com/u/35948782?v=4" alt="Profile">
+        
+        
+        <div class="flex flex-wrap justify-center">
+
+            <div class="max-w-sm bg-white text-center scale-80">
+                <a href="https://codebyamrit.github.io/" target="_blank">
+                    <img class="rounded-full -mb-20 w-100 " src="https://avatars.githubusercontent.com/u/35948782?v=4" alt="Profile">
                 </a>
-                <div class="p-5">
-                    <h3 class="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
-                        <a href="https://codebyamrit.github.io/">Amrit Sharma</a>
-                    </h3>
-                    <span class="text-gray-500 dark:text-gray-400">Web Developer | UX/UI Designer</span>
+                <div class="p-5 pt-20 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                    <a href="#">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Amrit Sharma</h5>
+                    </a>
+                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Web Developer | UX/UI Designer</p>
                     <p class="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">Skilled in Node.js, Express,
                         and API development, Front End - HTML, CSS, and JavaScript.
                     </p>
-                    <ul class="flex space-x-4 sm:mt-0">
-                        <li>
-                            <a href="https://www.instagram.com/warrior_amrit/" target="_blank"
-                                class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
-                                    class="bi bi-instagram" viewBox="0 0 20 16">
-                                    <path fill-rule="evenodd"
-                                        d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
-                                </svg>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/CodeByAmrit/" target="_blank"
-                                class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
-                                    class="bi bi-github" viewBox="0 0 20 16">
-                                    <path fill-rule="evenodd"
-                                        d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
-                                </svg>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.linkedin.com/in/amrit-sharma-b11b88124/" target="_blank"
-                                class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
-                                    class="bi bi-linkedin" viewBox="0 0 20 16">
-                                    <path fill-rule="evenodd"
-                                        d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
-                                </svg>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div> -->
-        </div>
+                    <div class="flex justify-between items-center">
+    
+                        <a href="https://codebyamrit.github.io/" target="_blank" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                            Profile
+                            <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                            </svg>
+                        </a>
         
+                        <ul class="flex space-x-4 sm:mt-0">
+                            <li>
+                                <a href="https://www.instagram.com/warrior_amrit/" target="_blank"
+                                    class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                        class="bi bi-instagram" viewBox="0 0 20 16">
+                                        <path fill-rule="evenodd"
+                                            d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/CodeByAmrit/" target="_blank"
+                                    class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                        class="bi bi-github" viewBox="0 0 20 16">
+                                        <path fill-rule="evenodd"
+                                            d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/amrit-sharma-b11b88124/" target="_blank"
+                                    class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                        class="bi bi-linkedin" viewBox="0 0 20 16">
+                                        <path fill-rule="evenodd"
+                                            d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="max-w-sm bg-white text-center scale-80">
+                <a href="https://codebyamrit.github.io/" target="_blank">
+                    <img class="rounded-full -mb-20 w-100 " src="https://avatars.githubusercontent.com/u/35948782?v=4" alt="Profile">
+                </a>
+                <div class="p-5 pt-20 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                    <a href="#">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Amrit Sharma</h5>
+                    </a>
+                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Web Developer | UX/UI Designer</p>
+                    <p class="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">Skilled in Node.js, Express,
+                        and API development, Front End - HTML, CSS, and JavaScript.
+                    </p>
+                    <div class="flex justify-between items-center">
+    
+                        <a href="https://codebyamrit.github.io/" target="_blank" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                            Profile
+                            <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                            </svg>
+                        </a>
+        
+                        <ul class="flex space-x-4 sm:mt-0">
+                            <li>
+                                <a href="https://www.instagram.com/warrior_amrit/" target="_blank"
+                                    class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                        class="bi bi-instagram" viewBox="0 0 20 16">
+                                        <path fill-rule="evenodd"
+                                            d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/CodeByAmrit/" target="_blank"
+                                    class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                        class="bi bi-github" viewBox="0 0 20 16">
+                                        <path fill-rule="evenodd"
+                                            d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/amrit-sharma-b11b88124/" target="_blank"
+                                    class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                        class="bi bi-linkedin" viewBox="0 0 20 16">
+                                        <path fill-rule="evenodd"
+                                            d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="max-w-sm bg-white text-center scale-80">
+                <a href="https://codebyamrit.github.io/" target="_blank">
+                    <img class="rounded-full -mb-20 w-100 " src="https://avatars.githubusercontent.com/u/35948782?v=4" alt="Profile">
+                </a>
+                <div class="p-5 pt-20 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                    <a href="#">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Amrit Sharma</h5>
+                    </a>
+                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Web Developer | UX/UI Designer</p>
+                    <p class="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">Skilled in Node.js, Express,
+                        and API development, Front End - HTML, CSS, and JavaScript.
+                    </p>
+                    <div class="flex justify-between items-center">
+    
+                        <a href="https://codebyamrit.github.io/" target="_blank" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                            Profile
+                            <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                            </svg>
+                        </a>
+        
+                        <ul class="flex space-x-4 sm:mt-0">
+                            <li>
+                                <a href="https://www.instagram.com/warrior_amrit/" target="_blank"
+                                    class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                        class="bi bi-instagram" viewBox="0 0 20 16">
+                                        <path fill-rule="evenodd"
+                                            d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/CodeByAmrit/" target="_blank"
+                                    class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                        class="bi bi-github" viewBox="0 0 20 16">
+                                        <path fill-rule="evenodd"
+                                            d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/amrit-sharma-b11b88124/" target="_blank"
+                                    class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                        class="bi bi-linkedin" viewBox="0 0 20 16">
+                                        <path fill-rule="evenodd"
+                                            d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="max-w-sm bg-white text-center scale-80">
+                <a href="https://codebyamrit.github.io/" target="_blank">
+                    <img class="rounded-full -mb-20 w-100 " src="https://avatars.githubusercontent.com/u/35948782?v=4" alt="Profile">
+                </a>
+                <div class="p-5 pt-20 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                    <a href="#">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Amrit Sharma</h5>
+                    </a>
+                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Web Developer | UX/UI Designer</p>
+                    <p class="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">Skilled in Node.js, Express,
+                        and API development, Front End - HTML, CSS, and JavaScript.
+                    </p>
+                    <div class="flex justify-between items-center">
+    
+                        <a href="https://codebyamrit.github.io/" target="_blank" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                            Profile
+                            <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                            </svg>
+                        </a>
+        
+                        <ul class="flex space-x-4 sm:mt-0">
+                            <li>
+                                <a href="https://www.instagram.com/warrior_amrit/" target="_blank"
+                                    class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                        class="bi bi-instagram" viewBox="0 0 20 16">
+                                        <path fill-rule="evenodd"
+                                            d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/CodeByAmrit/" target="_blank"
+                                    class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                        class="bi bi-github" viewBox="0 0 20 16">
+                                        <path fill-rule="evenodd"
+                                            d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/amrit-sharma-b11b88124/" target="_blank"
+                                    class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                        class="bi bi-linkedin" viewBox="0 0 20 16">
+                                        <path fill-rule="evenodd"
+                                            d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
 
         <footer class="bg-white rounded-lg shadow dark:bg-gray-900 m-2">
             <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
                 <div class="sm:flex sm:items-center sm:justify-between">
                     <a href="/" class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
                         <img src="./images/text.svg" class="h-8" alt="Flowbite Logo" />
-                        <!-- <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span> -->
-                    </a>
+                        
                     <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
                         <li>
                             <a href="#" class="hover:underline me-4 md:me-6">About</a>
