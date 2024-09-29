@@ -1,3 +1,12 @@
+@font-face {
+    font-family: "CushyRegular";
+    src: url('webFonts/CushyRegular/font.woff2') format('woff2'), url('webFonts/CushyRegular/font.woff') format('woff');
+}
+
+.CushyRegular {
+	font-family: CushyRegular;
+}
+
 .scale-90{
     scale: 0.9;
 }
