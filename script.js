@@ -50,3 +50,23 @@ themeToggleBtn.addEventListener('click', function () {
     localStorage.setItem('theme', 'dark');
   }
 });
+
+window.onload = function () {
+  const scrollDiv = document.getElementById("scrollDiv");
+  let scrollStep = 2; // Speed of the scroll (pixels)
+
+  function scrollContent() {
+    scrollDiv.scrollLeft += scrollStep;
+
+    // If reached the end, reset to the first card
+    if (
+      scrollDiv.scrollLeft + scrollDiv.clientWidth >=
+      scrollDiv.scrollWidth
+    ) {
+      scrollDiv.scrollLeft = 0;
+    }
+  }
+
+  // Auto scroll the div in a loop
+  setInterval(scrollContent, 20); // Adjust the interval for smoother or faster scrolling
+};
