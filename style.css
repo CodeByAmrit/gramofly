@@ -795,11 +795,6 @@ video {
   margin-bottom: 2rem;
 }
 
-.mx-20 {
-  margin-left: 5rem;
-  margin-right: 5rem;
-}
-
 .-mb-20 {
   margin-bottom: -5rem;
 }
@@ -2435,10 +2430,6 @@ video {
   padding-top: 2.5rem;
 }
 
-.pt-14 {
-  padding-top: 3.5rem;
-}
-
 .pt-20 {
   padding-top: 5rem;
 }
@@ -3560,10 +3551,6 @@ video {
     margin-bottom: 4rem;
   }
 
-  .lg\:mt-4 {
-    margin-top: 1rem;
-  }
-
   .lg\:max-w-lg {
     max-width: 32rem;
   }
@@ -3574,10 +3561,6 @@ video {
 
   .lg\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  .lg\:rounded-3xl {
-    border-radius: 1.5rem;
   }
 
   .lg\:px-6 {
@@ -3619,12 +3602,6 @@ video {
 
   .lg\:text-center {
     text-align: center;
-  }
-
-  .lg\:shadow {
-    --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
-    --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
-    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   }
 
   .dark\:lg\:hover\:\[paint-order\:markers\]:hover:is(.dark *) {
