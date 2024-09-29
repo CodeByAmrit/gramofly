@@ -24,3 +24,29 @@ document.addEventListener('click', (event) => {
     servicesDropdown.classList.add('hidden'); // Close the submenu if clicked outside
   }
 });
+
+
+const themeToggleBtn = document.getElementById('theme-toggle');
+const htmlElement = document.documentElement;
+
+// Check the initial theme preference
+if (localStorage.getItem('theme') === 'dark') {
+  htmlElement.classList.add('dark');
+  document.getElementById("theme-svg").style.color = "white";
+} else {
+  htmlElement.classList.remove('dark');
+  document.getElementById("theme-svg").style.color = "black";
+}
+
+// Toggle the theme on button click
+themeToggleBtn.addEventListener('click', function () {
+  if (htmlElement.classList.contains('dark')) {
+    htmlElement.classList.remove('dark');
+    document.getElementById("theme-svg").style.color = "black";
+    localStorage.setItem('theme', 'light');
+  } else {
+    htmlElement.classList.add('dark');
+    document.getElementById("theme-svg").style.color = "white";
+    localStorage.setItem('theme', 'dark');
+  }
+});
